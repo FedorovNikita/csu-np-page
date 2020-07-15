@@ -12,14 +12,10 @@
     <header class="header">
       <div class="container header__wrap">
         <div class="header__logo logo">
-          <!-- <img src="" alt="Логотип ЧелГУ" class="logo__scu">
-          <img src="" alt="Логотип Napoleon" class="logo__np"> -->
           <svg class="logo__csu" width="48" height="34">
             <use xlink:href="static/img/svg/symbol/sprite.svg#csu"></use>
           </svg>
-          <svg class="logo__int" width="48" height="34">
-            <use xlink:href="static/img/svg/symbol/sprite.svg#csu"></use>
-          </svg>
+          <img src="static/img/int-small.png" alt="Логотип Интерсвязь" class="logo__int">
           <svg class="logo__np" width="147" height="13">
             <use xlink:href="static/img/svg/symbol/sprite.svg#np"></use>
           </svg>
@@ -393,9 +389,12 @@
             </li>
             <li class="organizers__item">
               <a href="https://www.is74.ru" class="organizers__link">
-                <svg class="organizers__int logo__int" width="212" height="19">
-                  <use xlink:href="static/img/svg/symbol/sprite.svg#np"></use>
-                </svg>
+                
+                <picture>
+                  <source media="(max-width: 768px)" srcset="static/img/int-small.png">
+                  
+                  <img src="static/img/int-big.png" alt="Логотип Интерсвязь" class="logo__int">
+              </picture>
               </a>
             </li>
           </ul>
@@ -509,10 +508,8 @@
           <svg class="logo__np" width="147" height="13">
             <use xlink:href="static/img/svg/symbol/sprite.svg#np"></use>
           </svg>
+          <img src="static/img/int-small.png" alt="Логотип Интерсвязь" class="logo__int">
           <svg class="logo__csu" width="48" height="34">
-            <use xlink:href="static/img/svg/symbol/sprite.svg#csu"></use>
-          </svg>
-          <svg class="logo__int" width="48" height="34">
             <use xlink:href="static/img/svg/symbol/sprite.svg#csu"></use>
           </svg>
         </div>
